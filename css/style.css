@@ -17,5 +17,7 @@ header {
 }
 
 #sns-links {
-    background-image: url(../images/sns-bg.jpg);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgb(0,0,0,0.2)), url(../images/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
