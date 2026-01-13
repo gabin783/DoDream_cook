@@ -22,3 +22,9 @@ header {
     background-position: center;
     background-attachment: scroll;
 }
+
+@media (min-width: 768px) {
+    .sns2 {
+        width: 50%;
+    }
+}
