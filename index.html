@@ -11,8 +11,11 @@
 <body>
     <!-- 상단 네비게이션 바 영역 시작 -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark bg-opacity-50">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">DoDream ART Cook</a>
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="./images/logo.png" alt="로고">
+                DoDream ART Cook
+            </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myMenu">
               <span class="navbar-toggler-icon"></span>
               </button>
@@ -32,6 +35,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#sns-links">SNS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#blog">블로그</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contact">연락처</a>
@@ -108,7 +114,7 @@
             </div>
             <div class="row justify-content-center g-4">
                 <div class="col-md-6">
-                    <div class="shadow rounded p-4 h-100">
+                    <div class="card-hover shadow rounded p-4 h-100">
                         <div class="d-flex align-items-center mb-3">
                             <img src="./images/service1.jpg" alt="서비스" class="m-3 rounded-circle">
                                 <div>
@@ -120,7 +126,7 @@
                     </div>   
                 </div>
                 <div class="col-md-6">
-                    <div class="shadow rounded p-4 h-100">
+                    <div class="card-hover shadow rounded p-4 h-100">
                         <div class="d-flex align-items-center justify-content-end mb-1 text-end">
                             <div>
                                 <h4 class="fw-bold">디저트 아트</h4>
@@ -132,7 +138,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="shadow rounded p-4 h-100">
+                    <div class="card-hover shadow rounded p-4 h-100">
                          <div class="d-flex align-items-center mb-3">
                             <img src="./images/service3.jpg" alt="서비스" class="m-3 rounded-circle">
                             <div>
@@ -144,7 +150,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="shadow rounded p-4 h-100">
+                    <div class="card-hover shadow rounded p-4 h-100">
                         <div class="d-flex align-items-center justify-content-end mb-1 text-end">
                             <div>
                                 <h4 class="fw-bold">신제품 개발</h4>
@@ -159,6 +165,7 @@
         </div>
      </section>
     <!-- 서비스 섹션 끝 -->
+     
     <!-- SNS 섹션 시작 -->
      <section id="sns-links" class="d-flex align-items-center py-5">
         <div class="container text-white text-center">
@@ -180,6 +187,63 @@
         </div>
      </section>
     <!-- SNS 섹션 끝 -->
+    <!-- 블로그 섹션 시작 -->
+    <section id="blog" class="overflow-hidden py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">ART Cook 블로그</h2>
+                <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, ducimus</p>
+            </div>
+    
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg">
+                <div class="card h-100 shadow">
+                    <img src="./images/blog1.jpg" alt="블로그" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fs-4">블로그 1</h5>
+                        <p class="card-text small text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, dolorum.</p>
+                        <a href="#" class="btn btn-warning btn-sm">Read more</a>
+                    </div>    
+                </div>
+                </div>
+                
+                <div class="col-sm-6 col-lg">
+                <div class="card h-100 shadow">
+                    <img src="./images/blog2.jpg" alt="블로그" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fs-4">블로그 2</h5>
+                        <p class="card-text small text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, dolorum.</p>
+                        <a href="#" class="btn btn-warning btn-sm">Read more</a>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="col-sm-6 col-lg">
+                    <div class="card h-100 shadow">
+                        <img src="./images/blog3.jpg" alt="블로그" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">블로그 3</h5>
+                            <p class="card-text small text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, dolorum.</p>
+                        <a href="#" class="btn btn-warning btn-sm">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg">    
+                <div class="card h-100 shadow">
+                    <img src="./images/blog4.jpg" alt="블로그" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fs-4">블로그 4</h5>
+                        <p class="card-text small text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, dolorum.</p>
+                        <a href="#" class="btn btn-warning btn-sm">Read more</a>
+                    </div>  
+                </div>
+                </div>      
+            </div>
+        </div>    
+    </section>
+    <hr>
+    <!-- 블로그 섹션 끝 -->
     <!-- 연락처 섹션 시작 -->
      <section id="contact" class="container text-center py-5">
         <div>
