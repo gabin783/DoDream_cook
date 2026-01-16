@@ -41,3 +41,8 @@ header {
         width: 50%;
     }
 }
+
+.navbar-nav .nav-link.active {
+    color: #ffc107 !important; /* Bootstrap warning 색상(노랑) */
+    font-weight: bold;
+}
