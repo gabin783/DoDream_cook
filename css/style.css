@@ -8,6 +8,17 @@ h1, h2, h3, h4, h5, h6, .gugi-font {
     font-family: "Gugi", sans-serif;
 }
 
+/* 네비게이션 영역 */
+
+.nav-link:hover {
+    color: #ffc107
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffc107 !important; /* Bootstrap warning 색상(노랑) */
+    font-weight: bold;
+}
+
 header {
     background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(../images/main-bg.jpg);
     background-size: cover;
@@ -39,9 +50,4 @@ header {
     .sns2 {
         width: 50%;
     }
-}
-
-.navbar-nav .nav-link.active {
-    color: #ffc107 !important; /* Bootstrap warning 색상(노랑) */
-    font-weight: bold;
 }
